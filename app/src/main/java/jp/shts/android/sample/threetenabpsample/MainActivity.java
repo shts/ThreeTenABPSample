@@ -13,6 +13,20 @@ import org.threeten.bp.temporal.ChronoUnit;
 
 import java.util.Locale;
 
+/**
+ *
+ ThreeTenABP
+
+ https://github.com/JakeWharton/ThreeTenABP
+
+ http://qiita.com/sis-yoshiday/items/c26e56a6010971c6d9ae
+ https://tech.recruit-mp.co.jp/mobile/kyobashidex_1/
+ http://qiita.com/futabooo/items/206b71ee8022ac685ece
+ http://acro-engineer.hatenablog.com/entry/20130213/1360691391
+
+ https://gist.github.com/tokuhirom/0b7441684653cb85cefa
+
+ */
 public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = MainActivity.class.getSimpleName();
