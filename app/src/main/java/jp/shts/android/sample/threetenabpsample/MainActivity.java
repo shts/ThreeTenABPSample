@@ -188,6 +188,13 @@ public class MainActivity extends AppCompatActivity {
             // 1年と1時間後の日付と時刻を取得する
             LocalDateTime oneYearAndHourLater = localDateTime.plusYears(1L).plusHours(1L);
             Log.d(TAG, "oneYearAndHourLater: " + oneYearAndHourLater);
+
+            // 指定した日時の差分を取得する
+            LocalDateTime from = LocalDateTime.of(2016, 6, 24, 16, 30, 30);
+            LocalDateTime to = LocalDateTime.now();
+            Duration duration = Duration.between(from, to);
+            long durationHours = duration.toHours();
+            Log.d(TAG, "durationHours: " + durationHours);
         }
 
         /**
