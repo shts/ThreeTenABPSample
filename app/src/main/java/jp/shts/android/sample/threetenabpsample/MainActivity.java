@@ -20,20 +20,9 @@ import java.util.Locale;
 
 /**
  *
- ThreeTenABP
 
-
+ [ThreeTenABP]
  https://github.com/JakeWharton/ThreeTenABP
-
- http://qiita.com/sis-yoshiday/items/c26e56a6010971c6d9ae
- https://tech.recruit-mp.co.jp/mobile/kyobashidex_1/
- http://qiita.com/futabooo/items/206b71ee8022ac685ece
- http://acro-engineer.hatenablog.com/entry/20130213/1360691391
-
- https://gist.github.com/tokuhirom/0b7441684653cb85cefa
-
- http://docs.oracle.com/javase/8/docs/api/
- http://builder.japan.zdnet.com/sp_oracle/weblogic/35067620/2/
 
  [日本人のためのDate and Time API Tips]
  http://www.coppermine.jp/docs/programming/2013/12/jsr310-tips.html
@@ -98,32 +87,32 @@ public class MainActivity extends AppCompatActivity {
             Log.d(TAG, "formatted: " + formatted);
 
             // 1年前の日付を取得する
-            LocalDate oneYearBefore = todayDate.minusYears(1L);
-            Log.d(TAG, "oneYearBefore: " + oneYearBefore);
+            LocalDate oneYearAgo = todayDate.minusYears(1L);
+            Log.d(TAG, "oneYearAgo: " + oneYearAgo);
             // 1年後の日付を取得する
-            LocalDate oneYearAfter = todayDate.plusYears(1L);
-            Log.d(TAG, "oneYearAfter: " + oneYearAfter);
+            LocalDate oneYearLater = todayDate.plusYears(1L);
+            Log.d(TAG, "oneYearLater: " + oneYearLater);
 
             // 1か月前の日付を取得する
-            LocalDate oneMonthBefore = todayDate.minusMonths(1L);
-            Log.d(TAG, "oneMonthBefore: " + oneMonthBefore);
+            LocalDate oneMonthAgo = todayDate.minusMonths(1L);
+            Log.d(TAG, "oneMonthAgo: " + oneMonthAgo);
             // 1か月後の日付を取得する
-            LocalDate oneMonthAfter = todayDate.plusMonths(1L);
-            Log.d(TAG, "oneMonthAfter: " + oneMonthAfter);
+            LocalDate oneMonthLater = todayDate.plusMonths(1L);
+            Log.d(TAG, "oneMonthLater: " + oneMonthLater);
 
             // 1週間前の日付を取得する
-            LocalDate oneWeekBefore = todayDate.minusWeeks(1L);
-            Log.d(TAG, "oneWeekBefore: " + oneWeekBefore);
+            LocalDate oneWeekAgo = todayDate.minusWeeks(1L);
+            Log.d(TAG, "oneWeekAgo: " + oneWeekAgo);
             // 1週間後の日付を取得する
-            LocalDate oneWeekAfter = todayDate.plusWeeks(1L);
-            Log.d(TAG, "oneWeekAfter: " + oneWeekAfter);
+            LocalDate oneWeekLater = todayDate.plusWeeks(1L);
+            Log.d(TAG, "oneWeekLater: " + oneWeekLater);
 
             // 1日前の日付を取得する
-            LocalDate oneDayBefore = todayDate.minusDays(1L);
-            Log.d(TAG, "oneDayBefore: " + oneDayBefore);
+            LocalDate oneDayAgo = todayDate.minusDays(1L);
+            Log.d(TAG, "oneDayAgo: " + oneDayAgo);
             // 1日後の日付を取得する
-            LocalDate oneDayAfter = todayDate.plusDays(1L);
-            Log.d(TAG, "oneDayAfter: " + oneDayAfter);
+            LocalDate oneDayLater = todayDate.plusDays(1L);
+            Log.d(TAG, "oneDayLater: " + oneDayLater);
 
             // 現在の年の1月1日(ツイタチ)の日付を取得する
             LocalDate withDayOfYear = todayDate.withDayOfYear(1);
@@ -162,32 +151,32 @@ public class MainActivity extends AppCompatActivity {
             Log.d(TAG, "formatted: " + formatted);
 
             // 1時間前の時刻を取得する
-            LocalTime oneHourBefore = localTime.minusHours(1L);
-            Log.d(TAG, "oneHourBefore: " + oneHourBefore);
+            LocalTime oneHourAgo = localTime.minusHours(1L);
+            Log.d(TAG, "oneHourAgo: " + oneHourAgo);
             // 1時間前の時刻を取得する
-            LocalTime oneHourAfter = localTime.plusHours(1L);
-            Log.d(TAG, "oneHourAfter: " + oneHourAfter);
+            LocalTime oneHourLater = localTime.plusHours(1L);
+            Log.d(TAG, "oneHourLater: " + oneHourLater);
 
             // 1分前の時刻を取得する
-            LocalTime oneMinutesBefore = localTime.minusMinutes(1L);
-            Log.d(TAG, "oneMinutesBefore: " + oneMinutesBefore);
+            LocalTime oneMinutesAgo = localTime.minusMinutes(1L);
+            Log.d(TAG, "oneMinutesAgo: " + oneMinutesAgo);
             // 1分後の時刻を取得する
-            LocalTime oneMinutesAfter = localTime.plusMinutes(1L);
-            Log.d(TAG, "oneMinutesAfter: " + oneMinutesAfter);
+            LocalTime oneMinutesLater = localTime.plusMinutes(1L);
+            Log.d(TAG, "oneMinutesLater: " + oneMinutesLater);
 
             // 1秒前の時刻を取得する
-            LocalTime oneSecondsBefore = localTime.minusSeconds(1L);
-            Log.d(TAG, "oneSecondsBefore: " + oneSecondsBefore);
+            LocalTime oneSecondsAgo = localTime.minusSeconds(1L);
+            Log.d(TAG, "oneSecondsAgo: " + oneSecondsAgo);
             // 1秒後の時刻を取得する
-            LocalTime oneSecondsAfter = localTime.plusSeconds(1L);
-            Log.d(TAG, "oneSecondsAfter: " + oneSecondsAfter);
+            LocalTime oneSecondsLater = localTime.plusSeconds(1L);
+            Log.d(TAG, "oneSecondsLater: " + oneSecondsLater);
 
             // 1ナノ秒後の時刻を取得する
-            LocalTime oneNanosBefore = localTime.minusNanos(1L);
-            Log.d(TAG, "oneNanosBefore: " + oneNanosBefore);
+            LocalTime oneNanosAgo = localTime.minusNanos(1L);
+            Log.d(TAG, "oneNanosAgo: " + oneNanosAgo);
             // 1ナノ後の時刻を取得する
-            LocalTime oneNanosAfter = localTime.plusNanos(1L);
-            Log.d(TAG, "oneNanosAfter: " + oneNanosAfter);
+            LocalTime oneNanosLater = localTime.plusNanos(1L);
+            Log.d(TAG, "oneNanosLater: " + oneNanosLater);
         }
 
         /**
@@ -201,11 +190,11 @@ public class MainActivity extends AppCompatActivity {
             Log.d(TAG, "localDateTime: " + localDateTime);
 
             // 1年と1時間前の日付と時刻を取得する
-            LocalDateTime oneYearAndHourBefore = localDateTime.minusYears(1L).minusHours(1L);
-            Log.d(TAG, "oneYearAndHourBefore: " + oneYearAndHourBefore);
+            LocalDateTime oneYearAndHourAgo = localDateTime.minusYears(1L).minusHours(1L);
+            Log.d(TAG, "oneYearAndHourAgo: " + oneYearAndHourAgo);
             // 1年と1時間後の日付と時刻を取得する
-            LocalDateTime oneYearAndHourAfter = localDateTime.plusYears(1L).plusHours(1L);
-            Log.d(TAG, "oneYearAndHourAfter: " + oneYearAndHourAfter);
+            LocalDateTime oneYearAndHourLater = localDateTime.plusYears(1L).plusHours(1L);
+            Log.d(TAG, "oneYearAndHourLater: " + oneYearAndHourLater);
         }
 
         /**
@@ -230,8 +219,6 @@ public class MainActivity extends AppCompatActivity {
             } else if (duration.toHours() < 24/*時間*/) {
                 Log.d(TAG, "duration: " + duration.toHours() + " hours");
             }
-
-            // TODO: 後で書く...
         }
     }
 }
