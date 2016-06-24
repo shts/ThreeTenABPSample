@@ -1,7 +1,7 @@
 package jp.shts.android.sample.threetenabpsample;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
 import org.threeten.bp.Duration;
@@ -10,13 +10,6 @@ import org.threeten.bp.LocalDateTime;
 import org.threeten.bp.LocalTime;
 import org.threeten.bp.ZonedDateTime;
 import org.threeten.bp.format.DateTimeFormatter;
-import org.threeten.bp.format.TextStyle;
-import org.threeten.bp.temporal.ChronoUnit;
-import org.threeten.bp.temporal.TemporalAccessor;
-import org.threeten.bp.temporal.TemporalAdjusters;
-import org.threeten.bp.temporal.TemporalField;
-
-import java.util.Locale;
 
 /**
  *
